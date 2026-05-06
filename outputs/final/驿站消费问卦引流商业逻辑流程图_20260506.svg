@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#102338"/>
+      <stop offset="0.55" stop-color="#17364f"/>
+      <stop offset="1" stop-color="#0b1725"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" x2="1">
+      <stop offset="0" stop-color="#f6fbff"/>
+      <stop offset="1" stop-color="#dcefff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#5fd5ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#00101c" flood-opacity="0.35"/>
+    </filter>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
+      <path d="M 0 0 L 14 7 L 0 14 z" fill="#9de8ff"/>
+    </marker>
+    <style>
+      .title { font: 700 42px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #ffffff; letter-spacing: 0; }
+      .subtitle { font: 400 22px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #bfeeff; }
+      .node-title { font: 700 25px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #12324b; }
+      .node-text { font: 400 18px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #31546a; }
+      .dark-title { font: 700 25px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #ffffff; }
+      .dark-text { font: 400 18px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #d8f5ff; }
+      .label { font: 700 18px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #e9fbff; }
+      .small { font: 400 16px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #bfeeff; }
+      .card { fill: url(#card); stroke: #b8efff; stroke-width: 2; filter: url(#shadow); }
+      .blue-card { fill: rgba(42, 125, 169, 0.35); stroke: #73dcff; stroke-width: 2; filter: url(#shadow); }
+      .arrow { fill: none; stroke: #9de8ff; stroke-width: 4; marker-end: url(#arrow); }
+      .dash { fill: none; stroke: #65d8ff; stroke-width: 3; stroke-dasharray: 10 10; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+
+  <path d="M80 840 C320 700, 520 920, 760 760 S1160 660, 1510 790" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="64"/>
+  <path d="M80 840 C320 700, 520 920, 760 760 S1160 660, 1510 790" fill="none" stroke="#8be8ff" stroke-opacity="0.75" stroke-width="5"/>
+  <path d="M100 210 C360 120, 520 270, 770 185 S1180 120, 1485 220" fill="none" stroke="#ffffff" stroke-opacity="0.09" stroke-width="48"/>
+  <path d="M100 210 C360 120, 520 270, 770 185 S1180 120, 1485 220" fill="none" stroke="#6de0ff" stroke-opacity="0.45" stroke-width="4"/>
+
+  <text x="90" y="86" class="title">坎卦智慧广场：消费 - 问卦 - 引流商业闭环</text>
+  <text x="92" y="126" class="subtitle">每一个驿站既是消费点，也是一次“人生问题输入”和“下一站推荐”的触发点</text>
+
+  <rect x="90" y="215" width="260" height="150" rx="18" class="card"/>
+  <text x="125" y="260" class="node-title">1 进入坎门</text>
+  <text x="125" y="296" class="node-text">拍照打卡 / 扫码入场</text>
+  <text x="125" y="326" class="node-text">获得初始身份标签</text>
+
+  <rect x="430" y="190" width="300" height="200" rx="18" class="card"/>
+  <text x="465" y="238" class="node-title">2 AI 问卦咖啡店</text>
+  <text x="465" y="276" class="node-text">购买限定饮品</text>
+  <text x="465" y="306" class="node-text">浏览坎卦文创</text>
+  <text x="465" y="336" class="node-text">在互动屏输入问题</text>
+
+  <rect x="815" y="190" width="300" height="200" rx="18" class="card"/>
+  <text x="850" y="238" class="node-title">3 生成智慧签</text>
+  <text x="850" y="276" class="node-text">卦象启发</text>
+  <text x="850" y="306" class="node-text">行动建议</text>
+  <text x="850" y="336" class="node-text">专属优惠券 / 集章</text>
+
+  <rect x="1230" y="215" width="280" height="150" rx="18" class="card"/>
+  <text x="1265" y="260" class="node-title">4 推荐下一站</text>
+  <text x="1265" y="296" class="node-text">按问题类型分流</text>
+  <text x="1265" y="326" class="node-text">给出前往理由</text>
+
+  <path d="M350 290 L420 290" class="arrow"/>
+  <path d="M730 290 L805 290" class="arrow"/>
+  <path d="M1115 290 L1220 290" class="arrow"/>
+
+  <text x="374" y="270" class="label">入场</text>
+  <text x="748" y="270" class="label">问卦</text>
+  <text x="1140" y="270" class="label">分流</text>
+
+  <rect x="120" y="525" width="270" height="155" rx="18" class="blue-card"/>
+  <text x="155" y="572" class="dark-title">水镜中庭</text>
+  <text x="155" y="610" class="dark-text">情绪平复 / 拍照停留</text>
+  <text x="155" y="640" class="dark-text">水饮、轻食、摄影服务</text>
+
+  <rect x="470" y="560" width="270" height="155" rx="18" class="blue-card"/>
+  <text x="505" y="607" class="dark-title">突破光环</text>
+  <text x="505" y="645" class="dark-text">突破转型 / 打卡传播</text>
+  <text x="505" y="675" class="dark-text">纪念照、徽章、联名周边</text>
+
+  <rect x="815" y="525" width="270" height="155" rx="18" class="blue-card"/>
+  <text x="850" y="572" class="dark-title">潮汐市集</text>
+  <text x="850" y="610" class="dark-text">社交消费 / 限时摊位</text>
+  <text x="850" y="640" class="dark-text">饮品、手作、快闪零售</text>
+
+  <rect x="1165" y="560" width="270" height="155" rx="18" class="blue-card"/>
+  <text x="1200" y="607" class="dark-title">文创零售站</text>
+  <text x="1200" y="645" class="dark-text">带走智慧签 / 集章兑换</text>
+  <text x="1200" y="675" class="dark-text">卡牌、杯具、香氛、小书</text>
+
+  <path d="M1370 365 C1280 455, 1110 480, 960 515" class="arrow"/>
+  <path d="M1370 365 C1210 455, 760 455, 610 552" class="arrow"/>
+  <path d="M1370 365 C1090 440, 455 430, 255 515" class="arrow"/>
+  <path d="M1370 365 C1400 440, 1395 505, 1300 552" class="arrow"/>
+
+  <text x="1090" y="468" class="small">情感 / 社交</text>
+  <text x="710" y="470" class="small">事业 / 转型</text>
+  <text x="315" y="462" class="small">健康 / 情绪</text>
+  <text x="1378" y="472" class="small">收藏 / 伴手礼</text>
+
+  <rect x="530" y="810" width="540" height="112" rx="18" fill="#f8fdff" stroke="#b8efff" stroke-width="2" filter="url(#shadow)"/>
+  <text x="575" y="854" class="node-title">5 再消费 + 再问卦 + 再推荐</text>
+  <text x="575" y="890" class="node-text">每站扫码核销权益，系统记录兴趣标签，并生成新的下一站理由</text>
+
+  <path d="M255 680 C305 760, 430 820, 520 850" class="dash"/>
+  <path d="M605 715 C625 770, 675 805, 730 810" class="dash"/>
+  <path d="M950 680 C920 745, 895 780, 860 810" class="dash"/>
+  <path d="M1300 715 C1215 790, 1145 825, 1080 850" class="dash"/>
+
+  <path d="M1070 865 C1265 845, 1430 750, 1430 620 C1430 500, 1460 430, 1375 372" class="dash"/>
+  <text x="1195" y="845" class="label">形成循环游逛</text>
+
+  <rect x="90" y="900" width="360" height="46" rx="23" fill="#163d56" stroke="#65d8ff" stroke-width="1.5"/>
+  <text x="120" y="930" class="small">运营后台：问题类型、消费偏好、停留时长、券核销</text>
+
+  <rect x="1155" y="900" width="355" height="46" rx="23" fill="#163d56" stroke="#65d8ff" stroke-width="1.5"/>
+  <text x="1185" y="930" class="small">私域沉淀：智慧签分享、会员积分、二次到访</text>
+</svg>

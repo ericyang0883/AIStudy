@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="slideBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071522"/>
+      <stop offset="0.48" stop-color="#123651"/>
+      <stop offset="1" stop-color="#06111d"/>
+    </linearGradient>
+    <radialGradient id="waterGlow" cx="52%" cy="47%" r="45%">
+      <stop offset="0" stop-color="#58dfff" stop-opacity="0.38"/>
+      <stop offset="0.42" stop-color="#267ba7" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#081420" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="whiteCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e0f5ff"/>
+    </linearGradient>
+    <linearGradient id="blueCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d6d95"/>
+      <stop offset="1" stop-color="#0f344e"/>
+    </linearGradient>
+    <linearGradient id="cyanLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#66e7ff"/>
+      <stop offset="0.5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#68dfff"/>
+    </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000b12" flood-opacity="0.45"/>
+    </filter>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="18" markerHeight="18" refX="14" refY="9" orient="auto">
+      <path d="M 0 0 L 18 9 L 0 18 z" fill="#9ef0ff"/>
+    </marker>
+    <style>
+      .title { font: 700 52px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #ffffff; letter-spacing: 0; }
+      .sub { font: 400 24px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #c9f4ff; }
+      .eyebrow { font: 700 18px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #7fe8ff; letter-spacing: 2px; }
+      .cardTitle { font: 700 28px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #11324a; }
+      .cardText { font: 400 20px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #355b70; }
+      .darkTitle { font: 700 27px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #ffffff; }
+      .darkText { font: 400 20px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #d9f8ff; }
+      .centerTitle { font: 700 34px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #ffffff; }
+      .centerText { font: 400 21px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #d9f8ff; }
+      .pill { font: 700 18px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #073044; }
+      .small { font: 400 18px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #bdefff; }
+      .valueTitle { font: 700 23px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #ffffff; }
+      .valueText { font: 400 18px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #d7f8ff; }
+      .flowLine { fill: none; stroke: url(#cyanLine); stroke-width: 5; marker-end: url(#arrow); filter: url(#softGlow); }
+    </style>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#slideBg)"/>
+  <rect width="1920" height="1080" fill="url(#waterGlow)"/>
+
+  <path d="M-40 870 C270 730, 500 940, 775 780 S1260 660, 1980 785" fill="none" stroke="#ffffff" stroke-width="72" stroke-opacity="0.055"/>
+  <path d="M-40 870 C270 730, 500 940, 775 780 S1260 660, 1980 785" fill="none" stroke="#7de8ff" stroke-width="5" stroke-opacity="0.72"/>
+  <path d="M-30 238 C260 128, 500 280, 820 190 S1320 118, 1970 230" fill="none" stroke="#ffffff" stroke-width="58" stroke-opacity="0.045"/>
+  <path d="M-30 238 C260 128, 500 280, 820 190 S1320 118, 1970 230" fill="none" stroke="#63dfff" stroke-width="4" stroke-opacity="0.44"/>
+
+  <text x="92" y="86" class="eyebrow">COMMERCIAL LOOP DESIGN</text>
+  <text x="90" y="150" class="title">驿站消费 · AI问卦 · 下一站引流商业逻辑</text>
+  <text x="92" y="194" class="sub">把每个节点从“单次打卡点”变成“消费触发点、问题输入点、游线分发点”</text>
+
+  <rect x="92" y="246" width="350" height="160" rx="18" fill="url(#whiteCard)" stroke="#b7efff" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="122" y="276" width="72" height="72" rx="20" fill="#0f8fc1"/>
+  <text x="147" y="325" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">1</text>
+  <text x="215" y="300" class="cardTitle">入口种草</text>
+  <text x="215" y="336" class="cardText">坎门打卡 / 扫码入场</text>
+  <text x="215" y="366" class="cardText">建立主题期待</text>
+
+  <rect x="590" y="246" width="350" height="160" rx="18" fill="url(#whiteCard)" stroke="#b7efff" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="620" y="276" width="72" height="72" rx="20" fill="#0f8fc1"/>
+  <text x="645" y="325" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">2</text>
+  <text x="713" y="300" class="cardTitle">首站消费</text>
+  <text x="713" y="336" class="cardText">咖啡 / 文创 / 限定券</text>
+  <text x="713" y="366" class="cardText">消费后触发问卦</text>
+
+  <rect x="1088" y="246" width="350" height="160" rx="18" fill="url(#whiteCard)" stroke="#b7efff" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="1118" y="276" width="72" height="72" rx="20" fill="#0f8fc1"/>
+  <text x="1143" y="325" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">3</text>
+  <text x="1211" y="300" class="cardTitle">AI问卦</text>
+  <text x="1211" y="336" class="cardText">输入人生问题</text>
+  <text x="1211" y="366" class="cardText">生成智慧签和权益</text>
+
+  <rect x="487" y="480" width="440" height="210" rx="26" fill="url(#blueCard)" stroke="#78e6ff" stroke-width="2.5" filter="url(#shadow)"/>
+  <text x="530" y="540" class="darkTitle">AI问卦咖啡店</text>
+  <text x="530" y="584" class="darkText">小型咖啡吧 + 文创售卖 + 互动屏</text>
+  <text x="530" y="618" class="darkText">游客在消费场景里完成问卦</text>
+  <rect x="530" y="642" width="118" height="32" rx="16" fill="#bff6ff"/>
+  <text x="558" y="665" class="pill">首站</text>
+  <rect x="662" y="642" width="118" height="32" rx="16" fill="#bff6ff"/>
+  <text x="690" y="665" class="pill">核销</text>
+  <rect x="794" y="642" width="92" height="32" rx="16" fill="#bff6ff"/>
+  <text x="822" y="665" class="pill">会员</text>
+
+  <circle cx="1178" cy="585" r="128" fill="#103650" stroke="#8eeeff" stroke-width="4" filter="url(#shadow)"/>
+  <circle cx="1178" cy="585" r="98" fill="none" stroke="#ffffff" stroke-width="2" stroke-opacity="0.25"/>
+  <text x="1110" y="562" class="centerTitle">智慧签</text>
+  <text x="1083" y="604" class="centerText">卦象启发</text>
+  <text x="1083" y="636" class="centerText">行动建议</text>
+  <text x="1083" y="668" class="centerText">下一站优惠</text>
+
+  <path d="M442 326 C500 326, 530 326, 580 326" class="flowLine"/>
+  <path d="M940 326 C998 326, 1028 326, 1078 326" class="flowLine"/>
+  <path d="M1260 406 C1250 458, 1228 494, 1204 528" class="flowLine"/>
+  <path d="M1070 585 C1005 585, 980 585, 934 585" class="flowLine"/>
+
+  <rect x="1298" y="498" width="250" height="116" rx="18" fill="#f8fdff" stroke="#b7efff" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1330" y="545" class="cardTitle">分流推荐</text>
+  <text x="1330" y="580" class="cardText">按问题类型给出理由</text>
+
+  <path d="M1423 614 C1408 710, 1320 776, 1195 796" class="flowLine"/>
+  <path d="M1423 614 C1510 690, 1535 760, 1510 840" class="flowLine"/>
+  <path d="M1423 614 C1320 682, 1015 710, 890 790" class="flowLine"/>
+  <path d="M1423 614 C1160 668, 595 704, 370 790" class="flowLine"/>
+
+  <rect x="180" y="792" width="300" height="130" rx="18" fill="#12354e" stroke="#66ddff" stroke-width="2"/>
+  <text x="214" y="840" class="valueTitle">水镜中庭</text>
+  <text x="214" y="878" class="valueText">情绪 / 健康 / 休憩</text>
+  <text x="214" y="906" class="valueText">轻饮、摄影、停留</text>
+
+  <rect x="650" y="792" width="300" height="130" rx="18" fill="#12354e" stroke="#66ddff" stroke-width="2"/>
+  <text x="684" y="840" class="valueTitle">突破光环</text>
+  <text x="684" y="878" class="valueText">事业 / 转型 / 打卡</text>
+  <text x="684" y="906" class="valueText">纪念照、徽章、周边</text>
+
+  <rect x="1120" y="792" width="300" height="130" rx="18" fill="#12354e" stroke="#66ddff" stroke-width="2"/>
+  <text x="1154" y="840" class="valueTitle">潮汐市集</text>
+  <text x="1154" y="878" class="valueText">社交 / 消费 / 快闪</text>
+  <text x="1154" y="906" class="valueText">饮品、手作、零售</text>
+
+  <rect x="1488" y="792" width="300" height="130" rx="18" fill="#12354e" stroke="#66ddff" stroke-width="2"/>
+  <text x="1522" y="840" class="valueTitle">文创零售站</text>
+  <text x="1522" y="878" class="valueText">收藏 / 伴手礼 / 集章</text>
+  <text x="1522" y="906" class="valueText">卡牌、杯具、小书</text>
+
+  <rect x="90" y="972" width="1740" height="62" rx="31" fill="#0e2b40" stroke="#55dfff" stroke-opacity="0.65"/>
+  <text x="130" y="1012" class="small">运营结果：消费核销数据、问题偏好标签、停留时长、会员积分、智慧签分享，持续推动二次到访和复购</text>
+</svg>
